@@ -6,10 +6,6 @@ jdk:
 branches:
   only:
     - master
-
-before_install:
-  - chmod +x gradlew
-
 # Travis CI 서버의 Home
 cache:
   directories:
@@ -17,7 +13,6 @@ cache:
     - '$HOME/.gradle'
 
 script: "./gradlew clean build"
-
 
 #CI 실행 완료 시 메일로 열람
 notifications:
