@@ -15,4 +15,4 @@ script: ".gradlew clean build"
 notifications:
   email:
     recipients:
-      -hyunbin.kim.3376@gmail.com
+      - hyunbin.kim.3376@gmail.com
